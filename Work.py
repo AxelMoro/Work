@@ -1,8 +1,8 @@
 def test_range(x, y, *check): # Укажите параметры
     range_list = []
-    for i in chek:
-        if i >= x or i <= y:
-            range_list.append (i)
+    for i in cheсk:
+        if i >= x and i <= y:
+            range_list.append(i)
         else:
             print('Число за границами диапазона')
     return range_list
